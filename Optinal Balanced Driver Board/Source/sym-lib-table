@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name FreeDSP_SMD_AB_plus-rescue)(type Legacy)(uri /Users/HILO/Documents/KICAD_DATA/FreeDSP_SMD_AB_plus_II/0v2posted/FreeDSP_SMD_AB_plus-rescue.lib)(options "")(descr ""))
+  (lib (name USBi_Programmer-rescue)(type Legacy)(uri /Volumes/iMacHDD/Users/HILO/Documents/KICAD_DATA/FreeUSBi_0v4/USBi_Programmer-rescue.lib)(options "")(descr ""))
+)
