@@ -23,8 +23,13 @@ Features:
 - LED Power Indicator
 - Connectors for Optional XLR output driver board.
 
-
 PCBA file package also included. You can order SMT and Boards. (https://jlcpcb.com/) 
+
+Project web page: (Direct Link) https://cyberpithilo.web.fc2.com/audio/freedsp/index.html
+
+Project web page: (Yandex Machine Translation) https://translate.yandex.com/translate?url=https%3A%2F%2Fcyberpithilo.web.fc2.com%2Faudio%2Ffreedsp%2Fcatamaran_main.html&lang=ja-en
+
+Project web page: (Google Machine Translation) https://cyberpithilo-web-fc2-com.translate.goog/audio/freedsp/catamaran_main.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=ja
 
 # License
 This work and all other materials under https://github.com/freeDSP are licensed under a Creative Commons Attribution Share-Alike 4.0 license. This allows for both personal and commercial derivative works, as long as they credit freeDSP and release their designs under the same license.
