@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /Users/HILO/Documents/KICAD_DATA/ADAU1701/FreeDSP_Catamaran/FreeDSP_Catamaran/FreeDSP_Catamaran.sch)
-    (date "Saturday, 15 January 2022 at 23:52:36")
+    (source /Users/HILO/Documents/KICAD_DATA/ADAU1701/FreeDSP_Catamaran/DSP_MainBoard/Source/FreeDSP_Catamaran.sch)
+    (date "Friday, 29 April 2022 at 11:16:19")
     (tool "Eeschema (5.1.9-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -18,6 +18,8 @@
     (comp (ref IC1)
       (value ADAU1701)
       (footprint Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm)
+      (fields
+        (field (name JLPCBA) C26394))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part ADAU1701-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 55396BF6))
@@ -27,7 +29,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C26022))
+        (field (name JLPCBA) C17673))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 55397145))
@@ -47,7 +49,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C40894))
+        (field (name JLPCBA) C15850))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 55397343))
@@ -97,7 +99,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C40894))
+        (field (name JLPCBA) C15850))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 55397782))
@@ -107,7 +109,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C40894))
+        (field (name JLPCBA) C15850))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5539784E))
@@ -117,7 +119,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C40894))
+        (field (name JLPCBA) C15850))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 55397854))
@@ -329,7 +331,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C40894))
+        (field (name JLPCBA) C15850))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5539985C))
@@ -895,7 +897,7 @@
       (footprint TO_SOT_Packages_SMD:SOT-23)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C79973))
+        (field (name JLPCBA) C27829))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part 2SC1945-FT232H-AUDIO-cache-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C484A44))
@@ -904,7 +906,7 @@
       (footprint TO_SOT_Packages_SMD:SOT-23)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C79973))
+        (field (name JLPCBA) C27829))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part 2SC1945-FT232H-AUDIO-cache-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C5B63AF))
@@ -913,7 +915,7 @@
       (footprint TO_SOT_Packages_SMD:SOT-23)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C79973))
+        (field (name JLPCBA) C27829))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part 2SC1945-FT232H-AUDIO-cache-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C67F439))
@@ -922,7 +924,7 @@
       (footprint TO_SOT_Packages_SMD:SOT-23)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C79973))
+        (field (name JLPCBA) C27829))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part 2SC1945-FT232H-AUDIO-cache-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C695AEF))
@@ -989,7 +991,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C26115))
+        (field (name JLPCBA) C17514))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5CB7B042))
@@ -1337,7 +1339,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C40894))
+        (field (name JLPCBA) C15850))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5CD980AF))
@@ -1397,7 +1399,7 @@
       (datasheet https://www.vishay.com/docs/85748/1n4148w.pdf)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C2099))
+        (field (name JLPCBA) C81598))
       (libsource (lib Diode) (part 1N4148W) (description "75V 0.15A Fast Switching Diode, SOD-123"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F69DA8A))
@@ -1407,7 +1409,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C130878))
+        (field (name JLPCBA) C8598))
       (libsource (lib Device) (part D_Schottky) (description "Schottky diode"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F79E19A))
@@ -1417,7 +1419,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C130878))
+        (field (name JLPCBA) C8598))
       (libsource (lib Device) (part D_Schottky) (description "Schottky diode"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F7A2E82))
@@ -1447,7 +1449,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C130878))
+        (field (name JLPCBA) C8598))
       (libsource (lib Device) (part D_Schottky) (description "Schottky diode"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5CBBD023))
@@ -1467,7 +1469,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C130878))
+        (field (name JLPCBA) C8598))
       (libsource (lib Device) (part D_Schottky) (description "Schottky diode"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5CE0BDAA))
@@ -1483,7 +1485,7 @@
       (datasheet https://www.vishay.com/docs/85748/1n4148w.pdf)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C2099))
+        (field (name JLPCBA) C81598))
       (libsource (lib Diode) (part 1N4148W) (description "75V 0.15A Fast Switching Diode, SOD-123"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D662DE7))
@@ -1575,7 +1577,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C26115))
+        (field (name JLPCBA) C17514))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 61822BD2))
@@ -1661,7 +1663,8 @@
       (value 24AA256)
       (footprint Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm)
       (fields
-        (field (name Category) SMT))
+        (field (name Category) SMT)
+        (field (name JLPCBA) C152172))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part I2CFLASH-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C654FDE))
@@ -1669,7 +1672,8 @@
       (value 24AA256)
       (footprint Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm)
       (fields
-        (field (name Category) SMT))
+        (field (name Category) SMT)
+        (field (name JLPCBA) C152172))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part I2CFLASH-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5539B417))
@@ -1678,7 +1682,7 @@
       (footprint Resistors_SMD:R_0805_HandSoldering)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C26115))
+        (field (name JLPCBA) C17514))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 63CE7D1F))
@@ -1715,7 +1719,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C26022))
+        (field (name JLPCBA) C17673))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 6506A0CF))
@@ -1725,7 +1729,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C26022))
+        (field (name JLPCBA) C17673))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 652583F2))
@@ -1735,7 +1739,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C26022))
+        (field (name JLPCBA) C17673))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part R-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 6531CCBA))
@@ -1900,7 +1904,7 @@
       (datasheet ~)
       (fields
         (field (name Category) SMT)
-        (field (name JLPCBA) C40894))
+        (field (name JLPCBA) C15850))
       (libsource (lib FreeDSP_SMD_AB_plus-rescue) (part C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 6724B66D))
