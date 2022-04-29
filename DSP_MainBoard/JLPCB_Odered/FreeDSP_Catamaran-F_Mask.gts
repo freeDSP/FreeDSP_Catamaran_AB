@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.9-0-10_14)*
-G04 #@! TF.CreationDate,2022-01-16T01:15:19+09:00*
+G04 #@! TF.CreationDate,2022-04-29T11:46:03+09:00*
 G04 #@! TF.ProjectId,FreeDSP_Catamaran,46726565-4453-4505-9f43-6174616d6172,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.9-0-10_14)) date 2022-01-16 01:15:19*
+G04 Created by KiCad (PCBNEW (5.1.9-0-10_14)) date 2022-04-29 11:46:03*
 %MOMM*%
 %LPD*%
 G01*
@@ -230,8 +230,8 @@ X128270000Y-67310000D03*
 D14*
 X128270000Y-65310000D03*
 D19*
-X56512800Y-55971400D03*
-X54012800Y-55971400D03*
+X56512800Y-56134000D03*
+X54012800Y-56134000D03*
 D18*
 X128270000Y-76220000D03*
 X128270000Y-78720000D03*
