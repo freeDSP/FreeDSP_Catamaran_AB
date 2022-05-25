@@ -6,8 +6,8 @@ Features:
 - 1in 4out RCA jacks on each PCB (2 boards requires for stereo use)
 - High-Performance Differntial monaural ADAU1701 ADC circuit
 - GND lift-able Differntial RCA-pin Input curcuit
-- GND lift-able Diffrential RCA-pin Ouput circui
-- A/B Selectable Dual boot EEPROMs
+- GND lift-able Diffrential RCA-pin Ouput circuit
+- Selectable Dual boot EEPROMs
 - A/B Program Select switch
 - Common-mode Choke filtered Power Supply Input
 - 0805(2.0mm x 1.25mm) SMD Resistors & Capacitors
@@ -16,8 +16,8 @@ Features:
 - Absolute Phase transparent. (No need to invert Output Phase)
 - Power-ON/OFF/Reboot Anti-Pop Audio Mute
 - Buffered TDM Interlink I/O Header (with Enable control)
-- 4times Rotary Pots for AUXADC 0-3
-- Control voltage 0-3 and Reset link header
+- Rotary Pots for AUXADC 0-3
+- Control voltage 0-3 and Reset interlink header
 - Mains Power Switch
 - LED Power Indicator
 - Reset(Reboot) Push Switch for debug-use (optional)
@@ -25,6 +25,8 @@ Features:
 - JST-EH Connectors for Optional XLR output driver board.
 
 PCBA file package included in JLPCB_OrderFiles . You can order SMT and Boards. (https://jlcpcb.com/) 
+
+Disccussion forum thread https://www.diyaudio.com/community/threads/freedsp-catamaran-a-b.381417/page-2#post-7026882
 
 Project web page: (Direct Link) https://cyberpithilo.web.fc2.com/audio/freedsp/index.html
 
