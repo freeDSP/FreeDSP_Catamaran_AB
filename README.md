@@ -26,7 +26,7 @@ Features:
 
 PCBA file package included in JLPCB_OrderFiles . You can order SMT and Boards. (https://jlcpcb.com/) 
 
-Disccussion forum thread https://www.diyaudio.com/community/threads/freedsp-catamaran-a-b.381417/page-2#post-7026882
+Disccussion forum thread (https://www.diyaudio.com/community/threads/freedsp-catamaran-a-b.381417/)
 
 Project web page: (Direct Link) https://cyberpithilo.web.fc2.com/audio/freedsp/index.html
 
