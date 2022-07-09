@@ -20,7 +20,6 @@ Features:
 - Control voltage 0-3 and Reset interlink header
 - Mains Power Switch
 - LED Power Indicator
-- Reset(Reboot) Push Switch for debug-use (optional)
 - MP1/MP7 controlled LED Indicators
 - JST-EH Connectors for Optional XLR output driver board.
 
