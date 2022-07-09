@@ -8,7 +8,7 @@ Features:
 - GND lift-able Differntial RCA-pin Input curcuit
 - GND lift-able Diffrential RCA-pin Ouput circuit
 - Selectable Dual boot EEPROMs
-- A/B Program Select switch
+- A/B Program Select switch with Auto-Reboot feature
 - Common-mode Choke filtered Power Supply Input
 - 0805(2.0mm x 1.25mm) SMD Resistors & Capacitors
 - Prepare for the through-Hole Ele-Caps on the Audio Path
