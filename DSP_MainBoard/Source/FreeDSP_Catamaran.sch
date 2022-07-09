@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "FreeDSP Catamaran A/B"
-Date "2022-06-13"
-Rev "1.01"
+Date "2022-07-09"
+Rev "1.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1232,8 +1232,8 @@ Wire Wire Line
 Wire Wire Line
 	4675 7475 4675 7450
 Connection ~ 4675 7450
-Text Notes 3150 6850 0    50   ~ 10
-RESET SW
+Text Notes 8025 9175 0    50   ~ 10
+AUTO RESET
 Wire Wire Line
 	4675 7450 4850 7450
 Wire Wire Line
@@ -2892,14 +2892,14 @@ Wire Wire Line
 	8825 8125 9075 8125
 Wire Wire Line
 	9075 9875 9850 9875
-Text Notes 6625 10000 0    50   ~ 10
+Text Notes 6125 10050 0    50   ~ 10
 PROGRAM\nSELECT SW
 Wire Notes Line
-	7050 9825 6625 9825
+	6550 9875 6125 9875
 Wire Notes Line
-	6625 10025 7050 10025
+	6125 10075 6550 10075
 Wire Notes Line
-	7050 10025 7050 9825
+	6550 10075 6550 9875
 Text Notes 8650 5100 0    50   ~ 10
 DAC SIGNAL\nREFERENCE
 Text Notes 10475 4650 0    50   ~ 10
@@ -3183,21 +3183,6 @@ F 3 "" H 1250 925 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	1250 1375 1250 1225
-$Comp
-L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR065
-U 1 1 5EAAC2D1
-P 2975 7200
-F 0 "#PWR065" H 2975 7200 30  0001 C CNN
-F 1 "GND" H 2975 7130 30  0001 C CNN
-F 2 "" H 2975 7200 60  0000 C CNN
-F 3 "" H 2975 7200 60  0000 C CNN
-	1    2975 7200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2975 7200 2975 7150
-Wire Wire Line
-	2975 7150 3025 7150
 Wire Wire Line
 	2025 7150 2425 7150
 Wire Wire Line
@@ -3500,9 +3485,9 @@ Wire Wire Line
 	5850 9825 5850 9875
 Text Notes 9725 8750 0    59   ~ 0
 Note:\nUse serial EEPROM which has capacity \nmore than or equal 128k bits.
-Text Notes 7275 10200 0    50   ~ 10
+Text Notes 6725 10200 0    50   ~ 10
 ROM-A
-Text Notes 7275 9775 0    50   ~ 10
+Text Notes 6725 9775 0    50   ~ 10
 ROM-B
 Text Notes 5175 2525 0    59   ~ 0
 (AUX-ADC1)
@@ -4099,31 +4084,15 @@ Wire Notes Line
 	5900 9500 5900 9325
 Connection ~ 4475 7450
 Wire Wire Line
-	3625 7450 3750 7450
-Wire Wire Line
-	3625 7150 3625 7450
-Connection ~ 3625 7450
-Wire Wire Line
-	2025 7450 3625 7450
-$Comp
-L fdsp_mechanical:SW_PUSH JP3
-U 1 1 566A6CA5
-P 3325 7150
-F 0 "JP3" H 3325 7300 50  0000 C CNN
-F 1 "TACT_ANGLE_PUSH" H 3300 7375 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx83-2LFS" H 3325 7150 60  0001 C CNN
-F 3 "" H 3325 7150 60  0000 C CNN
-	1    3325 7150
-	1    0    0    -1  
-$EndComp
+	2025 7450 3325 7450
 Wire Notes Line
-	3125 6875 3550 6875
+	8000 9200 8500 9200
 Wire Notes Line
-	3550 6875 3550 6750
+	8500 9200 8500 9075
 Wire Notes Line
-	3550 6750 3125 6750
+	8500 9075 8000 9075
 Wire Notes Line
-	3125 6750 3125 6875
+	8000 9075 8000 9200
 $Comp
 L Diode:1N4148W D2
 U 1 1 5D662DE7
@@ -4270,34 +4239,34 @@ $EndComp
 $Comp
 L 2MS1T1B4M7QES:2MS1T1B4M7QES SW2
 U 1 1 601057DC
-P 8175 10425
-F 0 "SW2" V 9000 9950 50  0000 L CNN
-F 1 "2MS1T1B4M7QES" V 8925 9950 50  0000 L CNN
-F 2 "Myfootprints:2MS1T1B4M7QES" H 8925 10525 50  0001 L CNN
-F 3 "http://akizukidenshi.com/download/ds/cosland/2MS1T1B4M7QES.pdf" H 8925 10425 50  0001 L CNN
-F 4 "Sub-Miniature Toggle Switch" H 8925 10325 50  0001 L CNN "Description"
-F 5 "8.13" H 8925 10225 50  0001 L CNN "Height"
-F 6 "Cosland" H 8925 10125 50  0001 L CNN "Manufacturer_Name"
-F 7 "2MS1T1B4M7QES" H 8925 10025 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "2MS1T1B4M7QES" H 8925 9925 50  0001 L CNN "Arrow Part Number"
-	1    8175 10425
+P 7625 10425
+F 0 "SW2" V 8450 9950 50  0000 L CNN
+F 1 "2MS1T1B4M7QES" V 8375 9950 50  0000 L CNN
+F 2 "Myfootprints:2MS1T1B4M7QES" H 8375 10525 50  0001 L CNN
+F 3 "http://akizukidenshi.com/download/ds/cosland/2MS1T1B4M7QES.pdf" H 8375 10425 50  0001 L CNN
+F 4 "Sub-Miniature Toggle Switch" H 8375 10325 50  0001 L CNN "Description"
+F 5 "8.13" H 8375 10225 50  0001 L CNN "Height"
+F 6 "Cosland" H 8375 10125 50  0001 L CNN "Manufacturer_Name"
+F 7 "2MS1T1B4M7QES" H 8375 10025 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "2MS1T1B4M7QES" H 8375 9925 50  0001 L CNN "Arrow Part Number"
+	1    7625 10425
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	7975 10425 7975 10575
+	7425 10425 7425 10575
 $Comp
 L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0107
 U 1 1 603C1FCD
-P 7875 10475
-F 0 "#PWR0107" H 7875 10475 30  0001 C CNN
-F 1 "GND" H 7875 10405 30  0001 C CNN
-F 2 "" H 7875 10475 60  0000 C CNN
-F 3 "" H 7875 10475 60  0000 C CNN
-	1    7875 10475
+P 7325 10475
+F 0 "#PWR0107" H 7325 10475 30  0001 C CNN
+F 1 "GND" H 7325 10405 30  0001 C CNN
+F 2 "" H 7325 10475 60  0000 C CNN
+F 3 "" H 7325 10475 60  0000 C CNN
+	1    7325 10475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7875 10425 7875 10475
+	7325 10425 7325 10475
 Wire Wire Line
 	7725 6350 8325 6350
 Wire Wire Line
@@ -4747,16 +4716,16 @@ $EndComp
 $Comp
 L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR017
 U 1 1 640643A9
-P 7675 8825
-F 0 "#PWR017" H 7675 8925 40  0001 C CNN
-F 1 "3V3" H 7675 8950 40  0000 C CNN
-F 2 "" H 7675 8825 60  0000 C CNN
-F 3 "" H 7675 8825 60  0000 C CNN
-	1    7675 8825
+P 7575 8825
+F 0 "#PWR017" H 7575 8925 40  0001 C CNN
+F 1 "3V3" H 7575 8950 40  0000 C CNN
+F 2 "" H 7575 8825 60  0000 C CNN
+F 3 "" H 7575 8825 60  0000 C CNN
+	1    7575 8825
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7675 8825 7725 8825
+	7575 8825 7625 8825
 $Comp
 L Device:R R?
 U 1 1 64129EA9
@@ -4788,24 +4757,20 @@ $EndComp
 $Comp
 L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR023
 U 1 1 642B7F50
-P 7975 10575
-F 0 "#PWR023" H 7975 10675 40  0001 C CNN
-F 1 "3V3" H 7975 10700 40  0000 C CNN
-F 2 "" H 7975 10575 60  0000 C CNN
-F 3 "" H 7975 10575 60  0000 C CNN
-	1    7975 10575
+P 7425 10575
+F 0 "#PWR023" H 7425 10675 40  0001 C CNN
+F 1 "3V3" H 7425 10700 40  0000 C CNN
+F 2 "" H 7425 10575 60  0000 C CNN
+F 3 "" H 7425 10575 60  0000 C CNN
+	1    7425 10575
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	8075 10550 8075 10425
+	7525 10550 7525 10425
 Wire Wire Line
-	7925 9325 8375 9325
-Wire Wire Line
-	8375 10550 8075 10550
+	7825 10550 7525 10550
 Text Label 8475 9975 0    60   ~ 0
 SDA
-Wire Wire Line
-	8125 8825 8300 8825
 $Comp
 L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR056
 U 1 1 64830D74
@@ -4820,19 +4785,15 @@ $EndComp
 Wire Wire Line
 	8025 7975 8025 8000
 Wire Wire Line
-	8375 10300 8825 10300
-Wire Wire Line
 	8825 10275 8825 10300
 Connection ~ 8825 10300
 Wire Wire Line
 	8825 10300 8825 10325
 Wire Wire Line
 	8825 10625 8825 10700
-Connection ~ 8375 10300
+Connection ~ 7825 10300
 Wire Wire Line
-	8375 10300 8375 10550
-Wire Wire Line
-	8375 9325 8375 10300
+	7825 10300 7825 10550
 Wire Wire Line
 	9125 9975 9250 9975
 Connection ~ 9250 9975
@@ -5058,37 +5019,37 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J10
 U 1 1 676FF1EA
-P 7625 11000
-F 0 "J10" H 7625 10800 50  0000 C CNN
-F 1 "Conn_01x02" H 7675 11100 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7625 11000 50  0001 C CNN
-F 3 "~" H 7625 11000 50  0001 C CNN
-	1    7625 11000
+P 7075 11000
+F 0 "J10" H 7075 10800 50  0000 C CNN
+F 1 "Conn_01x02" H 7125 11100 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7075 11000 50  0001 C CNN
+F 3 "~" H 7075 11000 50  0001 C CNN
+	1    7075 11000
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7825 10900 8375 10900
+	7275 10900 7825 10900
 Wire Wire Line
-	8375 10900 8375 10550
-Connection ~ 8375 10550
+	7825 10900 7825 10550
+Connection ~ 7825 10550
 $Comp
 L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR07
 U 1 1 67833B6D
-P 8375 11075
+P 7825 11075
 AR Path="/67833B6D" Ref="#PWR07"  Part="1" 
 AR Path="/5F35A747/67833B6D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR07" H 8375 11075 30  0001 C CNN
-F 1 "GND" H 8375 11005 30  0001 C CNN
-F 2 "" H 8375 11075 60  0000 C CNN
-F 3 "" H 8375 11075 60  0000 C CNN
-	1    8375 11075
+F 0 "#PWR07" H 7825 11075 30  0001 C CNN
+F 1 "GND" H 7825 11005 30  0001 C CNN
+F 2 "" H 7825 11075 60  0000 C CNN
+F 3 "" H 7825 11075 60  0000 C CNN
+	1    7825 11075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7825 11000 8375 11000
+	7275 11000 7825 11000
 Wire Wire Line
-	8375 11000 8375 11075
-Text Notes 7000 11025 0    50   ~ 10
+	7825 11000 7825 11075
+Text Notes 6450 11025 0    50   ~ 10
 PROGRAM\nSELECT-LINK
 $Comp
 L Device:C_Small C64
@@ -5115,19 +5076,17 @@ Wire Notes Line
 	675  8000 675  7875
 Wire Notes Line
 	975  8000 975  7875
-Wire Wire Line
-	7925 9125 7925 9325
 $Comp
 L Transistor_FET:IRLML6402 Q6
 U 1 1 63F3424F
-P 7925 8925
-F 0 "Q6" V 7950 9075 50  0000 L CNN
-F 1 "AO3401A" V 7875 9050 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8125 8850 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 7925 8925 50  0001 L CNN
-F 4 "SMT" H 7925 8925 50  0001 C CNN "Category"
-F 5 "C15127" H 7925 8925 50  0001 C CNN "JLPCBA"
-	1    7925 8925
+P 7825 8925
+F 0 "Q6" V 7850 9075 50  0000 L CNN
+F 1 "AO3401A" V 7775 9050 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8025 8850 50  0001 L CIN
+F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 7825 8925 50  0001 L CNN
+F 4 "SMT" H 7825 8925 50  0001 C CNN "Category"
+F 5 "C15127" H 7825 8925 50  0001 C CNN "JLPCBA"
+	1    7825 8925
 	0    1    -1   0   
 $EndComp
 Wire Notes Line
@@ -5890,7 +5849,7 @@ NoConn ~ 2025 7550
 NoConn ~ 2025 7650
 NoConn ~ 2025 7750
 NoConn ~ 1675 8775
-NoConn ~ 8175 10425
+NoConn ~ 7625 10425
 $Comp
 L power:GNDS #PWR0138
 U 1 1 695A5251
@@ -6151,7 +6110,7 @@ Connection ~ 13650 8775
 Text Notes 15275 3775 0    39   ~ 0
 (pin#)
 Text Notes 4775 3250 0    59   Italic 0
-Strike through this\nfor gang operation\n(Pots on one board)
+Strike through this\nfor gang operation\n(POTs on one board)
 Text Notes 625  9425 0    59   Italic 0
 Strike through J1\nfor Stereo link
 Text Notes 9900 6275 0    59   Italic 0
@@ -7281,7 +7240,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 3650 4250 3725
 Wire Notes Line
-	6625 9825 6625 10025
+	6125 9875 6125 10075
 Wire Notes Line
 	5775 675  11025 675 
 Wire Notes Line
@@ -7429,4 +7388,151 @@ Wire Wire Line
 	4600 2200 4950 2200
 Text Notes 5175 2250 0    59   ~ 0
 (BRD_RESET)
+$Comp
+L 74xGxx:74AHC1G86 U10
+U 1 1 62D245DE
+P 8275 9525
+F 0 "U10" H 8150 9675 50  0000 C CNN
+F 1 "SN74LVC1G86DBVR" H 8700 9675 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 8275 9525 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 8275 9525 50  0001 C CNN
+F 4 "C402161" H 8275 9525 50  0001 C CNN "JLPCBA"
+	1    8275 9525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8025 8825 8300 8825
+Wire Wire Line
+	7825 9125 7825 9475
+Wire Wire Line
+	7975 9475 7825 9475
+Connection ~ 7825 9475
+Wire Wire Line
+	7825 9475 7825 10300
+$Comp
+L Device:R R?
+U 1 1 634AD47B
+P 7975 10025
+AR Path="/5F35A747/634AD47B" Ref="R?"  Part="1" 
+AR Path="/634AD47B" Ref="R111"  Part="1" 
+F 0 "R111" V 8050 10025 50  0000 C CNN
+F 1 "1MEG" V 7975 10025 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7905 10025 30  0001 C CNN
+F 3 "" H 7975 10025 30  0000 C CNN
+F 4 "SMT" H 7975 10025 50  0001 C CNN "Category"
+F 5 "C17514" H 7975 10025 50  0001 C CNN "JLPCBA"
+	1    7975 10025
+	-1   0    0    1   
+$EndComp
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:C-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue C71
+U 1 1 63542D7E
+P 8175 9800
+F 0 "C71" V 8300 9750 40  0000 L CNN
+F 1 "100n" V 8350 9725 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8213 9650 30  0001 C CNN
+F 3 "~" H 8175 9800 60  0000 C CNN
+F 4 "SMT" H 8175 9800 50  0001 C CNN "Category"
+F 5 "C49678 " H 8175 9800 50  0001 C CNN "JLPCBA"
+	1    8175 9800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7825 10300 7975 10300
+Wire Wire Line
+	7975 9575 7975 9800
+Wire Wire Line
+	7975 9800 7975 9875
+Connection ~ 7975 9800
+Wire Wire Line
+	7975 10175 7975 10300
+Connection ~ 7975 10300
+Wire Wire Line
+	7975 10300 8825 10300
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0154
+U 1 1 6394D605
+P 8375 9850
+AR Path="/6394D605" Ref="#PWR0154"  Part="1" 
+AR Path="/5F35A747/6394D605" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0154" H 8375 9850 30  0001 C CNN
+F 1 "GND" H 8375 9780 30  0001 C CNN
+F 2 "" H 8375 9850 60  0000 C CNN
+F 3 "" H 8375 9850 60  0000 C CNN
+	1    8375 9850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8375 9800 8375 9850
+Wire Wire Line
+	8275 9625 8275 9675
+Wire Wire Line
+	8275 9675 8375 9675
+Wire Wire Line
+	8375 9675 8375 9800
+Connection ~ 8375 9800
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:3V3-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR0153
+U 1 1 63B13181
+P 8275 9375
+F 0 "#PWR0153" H 8275 9475 40  0001 C CNN
+F 1 "3V3" H 8275 9500 40  0000 C CNN
+F 2 "" H 8275 9375 60  0000 C CNN
+F 3 "" H 8275 9375 60  0000 C CNN
+	1    8275 9375
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8275 9375 8275 9425
+$Comp
+L USBi_Programmer-rescue:2N7002-dk_Transistors-FETs-MOSFETs-Single Q?
+U 1 1 63C46144
+P 3325 7725
+AR Path="/5F35A747/63C46144" Ref="Q?"  Part="1" 
+AR Path="/63C46144" Ref="Q4"  Part="1" 
+F 0 "Q4" V 3575 7625 60  0000 C CNN
+F 1 "AO3400A" V 3475 7750 60  0000 C CNN
+F 2 "digikey-footprints:SOT-23-3" H 3525 7925 60  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 3525 8025 60  0001 L CNN
+F 4 "2N7002NCT-ND" H 3525 8125 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N7002" H 3525 8225 60  0001 L CNN "MPN"
+F 6 "SMT" H 3525 8325 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 3525 8425 60  0001 L CNN "Family"
+F 8 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 3525 8525 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/2N7002/2N7002NCT-ND/244664" H 3525 8625 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET N-CH 60V 115MA SOT-23" H 3525 8725 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 3525 8825 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3525 8925 60  0001 L CNN "Status"
+F 13 "C20917" H 3325 7725 50  0001 C CNN "JLPCBA"
+	1    3325 7725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 7525 3325 7450
+Connection ~ 3325 7450
+$Comp
+L FreeDSP_SMD_AB_plus-rescue:GND-RESCUE-FreeDSP_SMD-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue-FreeDSP_SMD-rescue #PWR065
+U 1 1 63E1589C
+P 3325 7975
+F 0 "#PWR065" H 3325 7975 30  0001 C CNN
+F 1 "GND" H 3325 7905 30  0001 C CNN
+F 2 "" H 3325 7975 60  0000 C CNN
+F 3 "" H 3325 7975 60  0000 C CNN
+	1    3325 7975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 7925 3325 7975
+Wire Wire Line
+	8525 9525 8825 9525
+Text Label 8825 9525 2    79   ~ 0
+PCHG
+Text Label 2700 7825 0    79   ~ 0
+PCHG
+Wire Wire Line
+	3025 7825 2700 7825
+Wire Wire Line
+	3325 7450 3750 7450
+Text Notes 8975 9325 2    47   ~ 0
+(TSOP5)
 $EndSCHEMATC
