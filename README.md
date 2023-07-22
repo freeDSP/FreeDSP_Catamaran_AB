@@ -1,12 +1,12 @@
 # FreeDSP_Catamaran_AB
-A dual mono contruction Concept. Differenctial 1 in 4 out ADAU1701 board, High performance differential ADC, fs=96kHz 8slots TDM-Interlink across the boards.
+A dual mono construction Concept Differential ADC 1 in 4 out ADAU1701 board. Extreme High performance (ADC to DAC Overall Distortion 0.00087%) differential A/D Conversion, differential RCA-pin Outputs, fs=96kHz, 8 slots TDM-Interlink across the boards.
 
 Features:
 
-- 1in 4out RCA jacks on each PCB (2 boards requires for stereo use)
-- High-Performance Differntial monaural ADAU1701 ADC circuit
+- 1in 4 out RCA jacks on each PCB (2 boards requires for stereo use)
+- High-Performance Differential monaural ADAU1701 ADC circuit
 - GND lift-able Differntial RCA-pin Input curcuit
-- GND lift-able Diffrential RCA-pin Ouput circuit
+- GND lift-able Differential RCA-pin Output circuit
 - Mains Power Switch
 - Power-ON/OFF/Reboot Anti-Pop Audio Mute
 - LED Power Indicator
@@ -25,7 +25,7 @@ Features:
 
 PCBA file package included in JLPCB_OrderFiles . You can order SMT and Boards. (https://jlcpcb.com/) 
 
-Disccussion forum thread (https://www.diyaudio.com/community/threads/freedsp-catamaran-a-b.381417/)
+Discussion forum thread (https://www.diyaudio.com/community/threads/freedsp-catamaran-a-b.381417/)
 
 Project web page: (Direct Link) https://cyberpithilo.web.fc2.com/audio/freedsp/index.html
 
