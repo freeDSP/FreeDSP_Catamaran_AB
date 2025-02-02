@@ -4,7 +4,7 @@ A dual mono construction Concept Differential ADC 1 in 4 out ADAU1701 board. Ext
 Features:
 
 - 1in 4 out RCA jacks on each PCB (2 boards requires for stereo use)
-- High-Performance Differential monaural ADAU1701 ADC circuit
+- High-performance differential monaural ADAU1701 ADC circuit
 - GND lift-able Differntial RCA-pin Input curcuit
 - GND lift-able Differential RCA-pin Output circuit
 - Mains Power Switch
@@ -17,13 +17,15 @@ Features:
 - interlink header for AUXADC control voltage 0-3 and Reset
 - Common-mode Choke filtered Power Supply Input
 - 0805(2.0mm x 1.25mm) SMD Resistors & Capacitors
-- Prepare for the through-Hole Ele-Caps on the Audio Path
+- Prepare for the through-hole Ele-Caps on the Audio Path
 - Unity Gain Analog Audio Input and Output (2V RMS)
 - Absolute Phase transparent. (No need to invert Output Phase)
 - Buffered TDM Interlink I/O Header (with Enable control)
 - JST-EH Connectors for Optional XLR output driver board.
 
-PCBA file package included in JLPCB_OrderFiles . You can order SMT and Boards. (https://jlcpcb.com/) 
+PCBA file package included in JLPCB_OrderFiles. You can order SMT and Boards. (https://jlcpcb.com/) 
+
+A Wiki Page(https://github.com/freeDSP/FreeDSP_Catamaran_AB/wiki) of this project
 
 Discussion forum thread (https://www.diyaudio.com/community/threads/freedsp-catamaran-a-b.381417/)
 
